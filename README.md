@@ -16,10 +16,15 @@ Fall 2019
 - Color-codes hurricane intensity based on the Saffir-Simpson scale
 - Displays hurricane category numbers along the path
 
+## Dependencies
+
+- Python 3.x
+- Turtle graphics library (included in Python standard library)
+
 ## Usage
 
 1. Ensure you have Python installed on your system.
-2. Place the `hurricane_tracker.py` file and the `atlantic-basin.gif` image in the same directory.
+2. Place the `hurricane_tracker.py` file, the `atlantic-basin.gif` image, and the `hurricane.gif` image in the same directory.
 3. Run the program:
 
    ```
@@ -38,11 +43,6 @@ The program expects hurricane data in CSV format with the following columns:
 4. Longitude
 5. Wind speed (in mph)
 6. Pressure (in millibars)
-
-## Dependencies
-
-- Python 3.x
-- Turtle graphics library (included in Python standard library)
 
 ## Acknowledgments
 
